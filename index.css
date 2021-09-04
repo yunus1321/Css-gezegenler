@@ -1,5 +1,5 @@
 body {
-  background-image: url(görseler/aa.jpg);
+  background-image: url("görseler/aa.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -25,26 +25,26 @@ h1 {
   position: relative;
 }
 .aa2 {
-  background-image: url(görseler/aa2.jpg);
+  background-image: url("görseler/aa2.jpg");
 }
 .aa3 {
-  background-image: url(görseler/aa3.jpg);
+  background-image: url("görseler/aa3.jpg");
 }
 .aa4 {
-  background-image: url(görseler/aa4.jpg);
+  background-image: url("görseler/aa4.jpg");
 }
 .aa5 {
-  background-image: url(görseler/aa5.jpg);
+  background-image: url("görseler/aa5.jpg");
 }
 .aa6 {
-  background-image: url(görseler/aa6.jpg);
+  background-image: url("görseler/aa6.jpg");
 }
 .aa7 {
-  background-image: url(görseler/aa7.png);
+  background-image: url("görseler/aa7.png");
 }
 
 .aa8 {
-  background-image: url(görseler/aa8.jpg);
+  background-image: url("görseler/aa8.jpg");
 }
 
 .aa2:hover > .açıklama {
@@ -78,7 +78,7 @@ h1 {
 .açıklamaortak {
   visibility: hidden;
   opacity: 0;
-  background-image: url(görseler/a1.jpg);
+  background-image: url("görseler/a1.jpg");
   background-size: cover;
   color: yellow;
   height: 450px;
@@ -87,6 +87,7 @@ h1 {
   position: absolute;
   font-size: 25px;
   transition: all 2s;
+  z-index: 5;
 }
 .açıklama4 {
   right: 20px;
