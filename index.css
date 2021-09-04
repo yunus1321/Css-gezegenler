@@ -1,0 +1,99 @@
+body {
+  background-image: url(görseler/aa.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.uzay {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ortak {
+  margin: 1px;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 200px;
+  position: relative;
+}
+.aa2 {
+  background-image: url(görseler/aa2.jpg);
+}
+.aa3 {
+  background-image: url(görseler/aa3.jpg);
+}
+.aa4 {
+  background-image: url(görseler/aa4.jpg);
+}
+.aa5 {
+  background-image: url(görseler/aa5.jpg);
+}
+.aa6 {
+  background-image: url(görseler/aa6.jpg);
+}
+.aa7 {
+  background-image: url(görseler/aa7.png);
+}
+
+.aa8 {
+  background-image: url(görseler/aa8.jpg);
+}
+
+.aa2:hover > .açıklama {
+  visibility: visible;
+  opacity: 1;
+}
+.aa3:hover > .açıklama1 {
+  visibility: visible;
+  opacity: 1;
+}
+.aa4:hover > .açıklama2 {
+  visibility: visible;
+  opacity: 1;
+}
+.aa5:hover > .açıklama3 {
+  visibility: visible;
+  opacity: 1;
+}
+.aa6:hover > .açıklama4 {
+  visibility: visible;
+  opacity: 1;
+}
+.aa7:hover > .açıklama5 {
+  visibility: visible;
+  opacity: 1;
+}
+.aa8:hover > .açıklama6 {
+  visibility: visible;
+  opacity: 1;
+}
+.açıklamaortak {
+  visibility: hidden;
+  opacity: 0;
+  background-image: url(görseler/a1.jpg);
+  background-size: cover;
+  color: yellow;
+  height: 450px;
+  width: 650px;
+  top: 200px;
+  position: absolute;
+  font-size: 25px;
+  transition: all 2s;
+}
+.açıklama4 {
+  right: 20px;
+}
+.açıklama5 {
+  right: 50px;
+}
+.açıklama6 {
+  right: 0px;
+}
